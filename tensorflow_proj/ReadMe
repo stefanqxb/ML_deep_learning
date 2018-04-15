@@ -1,0 +1,47 @@
+# basic steps of building up model in tensorflow
+
+1. define init status, for x_input, y_input, weights, bias
+2. creates model framework, CNN, RNN, GAN, depends on the model structure
+3. define cost function
+4. define trainer for minimize the cost function
+5. start tf.Session, start training model
+
+
+most import concepts:
+
+--CNN:
+    convolution layer, pooling layer
+--RNN:
+    cell_status(memory), output_state, input, input_gate, reset_gate, output_gate
+
+--GAN:
+   generator descrimator
+
+useful link
+
+CNN:
+
+RNN:
+LSTM: https://colah.github.io/posts/2015-08-Understanding-LSTMs/
+GRU: http://blog.csdn.net/wangyangzhizhou/article/details/77332582
+
+
+当我们构建完图后，需要在一个会话中启动图，启动的第一步是创建一个Session对象。
+
+为了取回（Fetch）操作的输出内容, 可以在使用 Session 对象的 run()调用执行图时，传入一些 tensor, 这些 tensor 会帮助你取回结果。
+
+在python语言中，返回的tensor是numpy ndarray对象。
+
+在执行sess.run()时，tensorflow并不是计算了整个图，只是计算了与想要fetch 的值相关的部分。如下程序所示
+
+//
+initial 所有的　Variable　参数　constant　不需要这个
+init = tf.global_variables_initializer()
+with tf.Session() as sess:
+    sess.run(init)
+//
+feed_dict 用于替代　session.run 中 某个operation　的参数初始数值
+place_holder 占位符
+
+//
+backup/restore model　暂时只能一个一个参数读取，　然后需要重新架构，　不能一个dict那样读取，　naming　只针对tf.variable

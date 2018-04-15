@@ -1,0 +1,10 @@
+Issue:
+
+Attempting to use uninitialized value beta2_power tensorflow
+
+Solution:
+
+The problem is that you call model.optimizer.minimize too late.
+This methods creates additional tensors within your graph, so calling it within a loop is bad idea
+That's why you get exception you described - your initializer runs before you create them.
+The solution for you will be to place call to model.optimizer.minimize within the model class itself, and store its result in model`s attribute.

@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/exuaqiu/xuanbin/ML/tensorflow_proj/trained_model/GAN_model"
+all_model_checkpoint_paths: "/home/exuaqiu/xuanbin/ML/tensorflow_proj/trained_model/GAN_model"

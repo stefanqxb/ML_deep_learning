@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2517e80a-3d4b-4e8a-b480-caf1f460f6b4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/11.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/11.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/15.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/15.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/17.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/17.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/18.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/18.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/19.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/19.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/2.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/2.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/21.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/21.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/22.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/22.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/23.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/23.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/25.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/25.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/26.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/26.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/27.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/27.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/28.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/28.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/29.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/29.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/30.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/30.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/4.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/4.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/5.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/5.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/7.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/7.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/8.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/8.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/trained_model/GAN_model.data-00000-of-00001" afterPath="$PROJECT_DIR$/tensorflow_proj/trained_model/GAN_model.data-00000-of-00001" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/trained_model/GAN_model.index" afterPath="$PROJECT_DIR$/tensorflow_proj/trained_model/GAN_model.index" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/GAN.py" afterPath="$PROJECT_DIR$/tensorflow_proj/GAN.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/RNN_example.py" afterPath="$PROJECT_DIR$/tensorflow_proj/RNN_example.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/Wrok2Vec.py" afterPath="$PROJECT_DIR$/tensorflow_proj/Wrok2Vec.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/trained_model/GAN_model.meta" afterPath="$PROJECT_DIR$/tensorflow_proj/trained_model/GAN_model.meta" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/Reading_Data.py" afterPath="$PROJECT_DIR$/tensorflow_proj/Reading_Data.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -77,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GAN.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GAN.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tensorflow_proj/GAN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="104" column="34" lean-forward="true" selection-start-line="104" selection-start-column="34" selection-end-line="104" selection-end-column="34" />
+            <state relative-caret-position="1019">
+              <caret line="93" column="56" lean-forward="true" selection-start-line="93" selection-start-column="56" selection-end-line="93" selection-end-column="56" />
               <folding>
                 <element signature="e#0#64#0" expanded="true" />
                 <element signature="e#2461#2900#0" expanded="false" />
@@ -92,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Reading_Data.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Reading_Data.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tensorflow_proj/Reading_Data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="46" column="37" lean-forward="false" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+            <state relative-caret-position="784">
+              <caret line="51" column="72" lean-forward="false" selection-start-line="51" selection-start-column="72" selection-end-line="51" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -168,10 +143,10 @@
         <option value="$PROJECT_DIR$/Some issue_solution" />
         <option value="$PROJECT_DIR$/tensorflow_proj/ReadMe" />
         <option value="$PROJECT_DIR$/Reading_Data.py" />
-        <option value="$PROJECT_DIR$/tensorflow_proj/Reading_Data.py" />
         <option value="$PROJECT_DIR$/tensorflow_proj/Wrok2Vec.py" />
         <option value="$PROJECT_DIR$/tensorflow_proj/RNN_example.py" />
         <option value="$PROJECT_DIR$/tensorflow_proj/GAN.py" />
+        <option value="$PROJECT_DIR$/tensorflow_proj/Reading_Data.py" />
       </list>
     </option>
   </component>
@@ -717,14 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tensorflow_proj/Reading_Data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="46" column="37" lean-forward="false" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tensorflow_proj/CNN.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
@@ -763,14 +730,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tensorflow_proj/GAN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="104" column="34" lean-forward="true" selection-start-line="104" selection-start-column="34" selection-end-line="104" selection-end-column="34" />
+        <state relative-caret-position="1019">
+          <caret line="93" column="56" lean-forward="true" selection-start-line="93" selection-start-column="56" selection-end-line="93" selection-end-column="56" />
           <folding>
             <element signature="e#0#64#0" expanded="true" />
             <element signature="e#2461#2900#0" expanded="false" />
             <element signature="e#7820#8495#0" expanded="false" />
             <element signature="e#8528#9726#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_proj/Reading_Data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="51" column="72" lean-forward="false" selection-start-line="51" selection-start-column="72" selection-end-line="51" selection-end-column="72" />
+          <folding />
         </state>
       </provider>
     </entry>

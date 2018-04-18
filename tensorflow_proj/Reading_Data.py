@@ -50,34 +50,3 @@ with tf.Session() as sess:
     coord.join(enqueue_threads)
 
 # --- using queue and coordinator to prepare some dummy data finished---
-
-
-tf.train.shuffle_batch([img_one_queue, label_queue],
-                       batch_size=batch_size,capacity =  10 + 10* batch_size,
-                       min_after_dequeue = 10,
-                       num_threads=16,
-                       shapes=[(image_width, image_height, image_channel),()])
-
-
-input_images = np.array([[0] * 784 for i in range(input_count)])
-input_labels = np.array([[0] * 10 for i in range(input_count)])
-
-# 第二次遍历图片目录是为了生成图片数据和标签
-index = 0
-for i in range(0, 10):
-    dir = './custom_images/%s/' % i  # 这里可以改成你自己的图片目录，i为分类标签
-    for rt, dirs, files in os.walk(dir):
-        for filename in files:
-            filename = dir + filename
-            img = Image.open(filename)
-            width = img.size[0]
-            height = img.size[1]
-            for h in range(0, height):
-                for w in range(0, width):
-                    # 通过这样的处理，使数字的线条变细，有利于提高识别准确率
-                    if img.getpixel((w, h)) > 230:
-                        input_images[index][w + h * width] = 0
-                    else:
-                        input_images[index][w + h * width] = 1
-            input_labels[index][i] = 1
-            index += 1

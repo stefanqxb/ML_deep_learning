@@ -5,21 +5,23 @@ import numpy as np
 import tensorflow as tf
 import glob
 import os
+import shutil
+from PIL import Image
 
 # Import MNIST data
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("/tmp/data/", one_hot=True)
 
 # Training Params
-num_steps = 100000
-batch_size = 4
-learning_rate = 0.0001
+num_steps = 200
+batch_size = 60
+learning_rate = 0.001
 
 # Network Params
-image_dim = 250000 # 500*500 pixels
-gen_hidden_dim = 256
-disc_hidden_dim = 256
-noise_dim = 100 # Noise data points
+image_dim = 16384 # 128*128 pixels
+gen_hidden_dim = 128
+disc_hidden_dim = 128
+noise_dim = 100  # Noise data points
 model_path = "/home/exuaqiu/xuanbin/ML/tensorflow_proj/trained_model/GAN_model"
 
 
@@ -30,15 +32,45 @@ def covert_pic_to_jpeg(pic_data_path):
 
 def resize_pic_from_data(pics_path, pic_size):
     """ standardize the pic size """
-    standarlized_pics = []
+    tmp_path = os.path.join(pics_path, "tmp")
+    tmp_pics = []
+    if os.path.isdir(tmp_path):
+        shutil.rmtree(tmp_path)
+    os.makedirs(tmp_path)
+
     pic_batch = glob.glob(os.path.join(pics_path, "*.jpeg"))
     with tf.Session() as sess:
-        for pic in pic_batch:
+        for index, pic in enumerate(pic_batch):
             image_raw_data_jpg = tf.gfile.FastGFile(pic, 'r').read()
             image_decoded = tf.image.decode_jpeg(image_raw_data_jpg, channels=3)
             resized = tf.image.resize_images(image_decoded, pic_size, method=0)
-            standarlized_pics.append(tf.image.convert_image_dtype(resized, dtype=tf.float32))
-    return standarlized_pics
+            new_image = np.asarray(resized.eval(), dtype='uint8')
+            encoded_image = tf.image.encode_jpeg(new_image)
+            new_image_path = os.path.join(tmp_path, str(index) + ".jpeg")
+            with tf.gfile.GFile(new_image_path, "wb") as f:
+                f.write(encoded_image.eval())
+            tmp_pics.append(new_image_path)
+
+    return tmp_pics
+
+
+def prepare_training_data_set(pic_set, tf_size):
+    """ reformat the pic with array and pixels value """
+    tf_pics = np.array([[0] * tf_size for _ in range(len(pic_set))])
+
+    for index, pic in enumerate(pic_set):
+        pix_index = 0
+        im = Image.open(pic)
+        pix = im.load()
+        width, height = im.size
+
+        for h in range(0, height):
+            for w in range(0, width):
+                # convert the rgb value to one unique value to represent the color
+                tf_pics[index][pix_index] = 65536* pix[w, h][0] + 256*pix[w, h][1] + pix[w, h][2]
+                pix_index += 1
+            pix_index += 1
+    return tf_pics
 
 
 def view_pics(pics_path):
@@ -59,25 +91,9 @@ def view_pics(pics_path):
     plt.show()
 
 
-def get_image(image_path):
-    """Reads the jpg image from image_path.
-    Returns the image as a tf.float32 tensor
-    Args:
-        image_path: tf.string tensor
-    Reuturn:
-        the decoded jpeg image casted to float32
-    """
-    content = tf.read_file(image_path)
-    tf_image = tf.image.decode_jpeg(content, channels=3)
-    return tf_image
-
-
-def prepare_training_data(images_path, batch_size):
-    """ generate training sets """
-    train_input_queue = tf.train.slice_input_producer(images_path, capacity=10 * batch_size)
-    batch_img = tf.train.shuffle_batch(train_input_queue, batch_size=batch_size,
-                                       capacity=10 + 10 * batch_size,
-                                       min_after_dequeue=10, num_threads=4)
+def radmon_select_training_data(images_set, batch_size):
+    """ ramdonly pick training data set """
+    batch_img = images_set[np.random.randint(images_set.shape[0], size=batch_size), :]
     return batch_img
 
 
@@ -161,7 +177,9 @@ def train_model():
 
     train_gen, train_disc, gen_loss, disc_loss = build_network(gen_input, disc_input, weights, biases)
 
-    standarlized_pics = resize_pic_from_data(pics_path="/home/exuaqiu/xuanbin/ML/tensorflow_proj/pic_data/special_force", pic_size=(500, 500))
+    tmp_pics = resize_pic_from_data(pics_path="/home/exuaqiu/xuanbin/ML/tensorflow_proj/pic_data/special_force", pic_size=(1, image_dim))
+
+    tf_pics = prepare_training_data_set(tmp_pics, tf_size=image_dim)
 
     init = tf.global_variables_initializer()
     # 'Saver' op to save and restore all the variables
@@ -171,14 +189,13 @@ def train_model():
         sess.run(init)
         for i in range(1, num_steps + 1):
             # Prepare Data, Get the next batch of MNIST data (only images are needed, not labels)
-            #batch_x, _ = mnist.train.next_batch(batch_size)
-            batch_x = prepare_training_data(standarlized_pics, batch_size)
+            batch_x = radmon_select_training_data(tf_pics, batch_size)
             # Generate noise to feed to the generator
             z = np.random.uniform(-1., 1., size=[batch_size, noise_dim])
             # specify fetches, and only care about the last two, gen_loss and disc_loss
             _, _, gl, dl = sess.run([train_gen, train_disc, gen_loss, disc_loss],
                                     feed_dict={disc_input: batch_x, gen_input: z})
-            if i % 2000 == 0 or i == 1:
+            if i % 20 == 0 or i == 1:
                 print('Step %i: Generator Loss: %f, Discriminator Loss: %f' % (i, gl, dl))
 
         saver.save(sess, model_path)
@@ -237,10 +254,10 @@ def test_trained_model():
 
 
 def main():
+    covert_pic_to_jpeg(pic_data_path="/home/exuaqiu/xuanbin/ML/tensorflow_proj/pic_data/special_force")
     train_model()
     #test_trained_model()
-    #covert_pic_to_jpeg(pic_data_path="/home/exuaqiu/xuanbin/ML/tensorflow_proj/pic_data/special_force")
-    #standarlized_pics = resize_pic_from_data(pics_path="/home/exuaqiu/xuanbin/ML/tensorflow_proj/pic_data/special_force",  pic_size=(500,500))
+    #standarlized_pics = resize_pic_from_data(pics_path="/home/exuaqiu/xuanbin/ML/tensorflow_proj/pic_data/special_force",  pic_size=(256,256))
     #view_pics(standarlized_pics)
 
 

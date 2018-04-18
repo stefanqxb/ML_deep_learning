@@ -2,7 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2517e80a-3d4b-4e8a-b480-caf1f460f6b4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tensorflow_proj/Wrok2Vec.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/11.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/11.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/15.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/15.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/17.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/17.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/18.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/18.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/19.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/19.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/2.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/2.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/21.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/21.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/22.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/22.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/23.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/23.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/25.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/25.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/26.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/26.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/27.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/27.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/28.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/28.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/29.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/29.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/30.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/30.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/4.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/4.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/5.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/5.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/7.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/7.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/8.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/8.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/trained_model/GAN_model.data-00000-of-00001" afterPath="$PROJECT_DIR$/tensorflow_proj/trained_model/GAN_model.data-00000-of-00001" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/trained_model/GAN_model.index" afterPath="$PROJECT_DIR$/tensorflow_proj/trained_model/GAN_model.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/GAN.py" afterPath="$PROJECT_DIR$/tensorflow_proj/GAN.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/RNN_example.py" afterPath="$PROJECT_DIR$/tensorflow_proj/RNN_example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/Wrok2Vec.py" afterPath="$PROJECT_DIR$/tensorflow_proj/Wrok2Vec.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/trained_model/GAN_model.meta" afterPath="$PROJECT_DIR$/tensorflow_proj/trained_model/GAN_model.meta" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +44,8 @@
       <file leaf-file-name="CNN.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tensorflow_proj/CNN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="816">
+              <caret line="78" column="13" lean-forward="false" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="13" />
               <folding>
                 <element signature="e#245#268#0" expanded="true" />
               </folding>
@@ -31,8 +56,8 @@
       <file leaf-file-name="RNN_example.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tensorflow_proj/RNN_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="-731">
+              <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -43,8 +68,8 @@
       <file leaf-file-name="Wrok2Vec.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tensorflow_proj/Wrok2Vec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2108">
-              <caret line="124" column="41" lean-forward="false" selection-start-line="124" selection-start-column="41" selection-end-line="124" selection-end-column="41" />
+            <state relative-caret-position="1530">
+              <caret line="105" column="25" lean-forward="false" selection-start-line="105" selection-start-column="25" selection-end-line="105" selection-end-column="25" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -55,22 +80,14 @@
       <file leaf-file-name="GAN.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tensorflow_proj/GAN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="492">
+              <caret line="104" column="34" lean-forward="true" selection-start-line="104" selection-start-column="34" selection-end-line="104" selection-end-column="34" />
               <folding>
                 <element signature="e#0#64#0" expanded="true" />
-                <element signature="e#8014#9212#0" expanded="false" />
+                <element signature="e#2461#2900#0" expanded="false" />
+                <element signature="e#7820#8495#0" expanded="false" />
+                <element signature="e#8528#9726#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="input.py" pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/lib/python2.7/dist-packages/tensorflow/python/training/input.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="1171" column="19" lean-forward="false" selection-start-line="1171" selection-start-column="8" selection-end-line="1171" selection-end-column="19" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -78,18 +95,8 @@
       <file leaf-file-name="Reading_Data.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tensorflow_proj/Reading_Data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="653">
-              <caret line="73" column="16" lean-forward="false" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReadMe" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tensorflow_proj/ReadMe">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+            <state relative-caret-position="449">
+              <caret line="46" column="37" lean-forward="false" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -136,6 +143,13 @@
       <find>gen_</find>
       <find>slice_input_producer</find>
       <find>convert_image_dtype</find>
+      <find>batch_size</find>
+      <find>gen_input</find>
+      <find>image_dim</find>
+      <find>load()</find>
+      <find>standralized_pics</find>
+      <find>print</find>
+      <find>one_hot</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -149,20 +163,20 @@
         <option value="$PROJECT_DIR$/tensorflow_proj/first_try.py" />
         <option value="$PROJECT_DIR$/tensorflow_proj/minst_test.py" />
         <option value="$PROJECT_DIR$/tensorflow_proj/activation_function.py" />
-        <option value="$PROJECT_DIR$/tensorflow_proj/RNN_example.py" />
         <option value="$PROJECT_DIR$/tensorflow_proj/CNN.py" />
-        <option value="$PROJECT_DIR$/tensorflow_proj/Wrok2Vec.py" />
         <option value="$PROJECT_DIR$/tensorflow_proj/Test_GAN.py" />
         <option value="$PROJECT_DIR$/Some issue_solution" />
         <option value="$PROJECT_DIR$/tensorflow_proj/ReadMe" />
         <option value="$PROJECT_DIR$/Reading_Data.py" />
         <option value="$PROJECT_DIR$/tensorflow_proj/Reading_Data.py" />
+        <option value="$PROJECT_DIR$/tensorflow_proj/Wrok2Vec.py" />
+        <option value="$PROJECT_DIR$/tensorflow_proj/RNN_example.py" />
         <option value="$PROJECT_DIR$/tensorflow_proj/GAN.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
+    <option name="x" value="1918" />
     <option name="y" value="-1" />
     <option name="width" value="1924" />
     <option name="height" value="1059" />
@@ -196,12 +210,6 @@
               <item name="ML" type="b2602c69:ProjectViewProjectNode" />
               <item name="ML" type="462c0819:PsiDirectoryNode" />
               <item name="tensorflow_proj" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ML" type="462c0819:PsiDirectoryNode" />
-              <item name="tensorflow_proj" type="462c0819:PsiDirectoryNode" />
-              <item name="trained_model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -239,6 +247,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ML" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow_proj/GAN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="RNN_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorflow_proj" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="ML" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow_proj/RNN_example.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -294,30 +319,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="test.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="/bin/bash" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorflow_proj/simple-examples/1-train" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow_proj/simple-examples/1-train/test.sh" />
-      <option name="PARAMETERS" value="" />
-      <module name="ML" />
-      <envs />
-    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.activation_function" />
-      <item index="1" class="java.lang.String" itemvalue="Bash.test.sh" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Wrok2Vec" />
-      <item index="3" class="java.lang.String" itemvalue="Python.GAN" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Reading_Data" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Wrok2Vec" />
+      <item index="2" class="java.lang.String" itemvalue="Python.GAN" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Reading_Data" />
+      <item index="4" class="java.lang.String" itemvalue="Python.RNN_example" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.GAN" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Reading_Data" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Wrok2Vec" />
-        <item index="3" class="java.lang.String" itemvalue="Bash.test.sh" />
-        <item index="4" class="java.lang.String" itemvalue="Python.activation_function" />
+        <item index="1" class="java.lang.String" itemvalue="Python.RNN_example" />
+        <item index="2" class="java.lang.String" itemvalue="Python.activation_function" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Reading_Data" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Wrok2Vec" />
       </list>
     </recent_temporary>
   </component>
@@ -347,15 +362,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="-1" width="1924" height="1059" extended-state="0" />
+    <frame x="1918" y="-1" width="1924" height="1059" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0314164" sideWeight="0.49348232" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14217253" sideWeight="0.49348232" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3429487" sideWeight="0.3887114" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3301282" sideWeight="0.6112886" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3301282" sideWeight="0.6112886" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2234375" sideWeight="0.5065177" order="2" side_tool="true" content_ui="tabs" />
@@ -402,61 +417,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="21" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tensorflow_proj/first_try.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensorflow_proj/try_two.py" />
-    <entry file="file://$PROJECT_DIR$/tensorflow_proj/CNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="50" column="27" lean-forward="false" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
-          <folding>
-            <element signature="e#245#268#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensorflow_proj/RNN_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensorflow_proj/minst_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="50" lean-forward="false" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensorflow_proj/first_try.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="43" lean-forward="false" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensorflow_proj/try_two.py" />
-    <entry file="file://$PROJECT_DIR$/tensorflow_proj/minst_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tensorflow_proj/CNN.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
@@ -591,24 +556,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tensorflow_proj/simple-examples/1-train/test.sh" />
     <entry file="file://$PROJECT_DIR$/tensorflow_proj/try_two.py" />
     <entry file="file://$PROJECT_DIR$/tensorflow_proj/tsne.png" />
     <entry file="file://$PROJECT_DIR$/tensorflow_proj/Test_GAN.py" />
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/tensorflow/contrib/training/python/training/sequence_queueing_state_saver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="922" column="6" lean-forward="false" selection-start-line="922" selection-start-column="6" selection-end-line="922" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/tensorflow/python/training/saver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -660,60 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tensorflow_proj/CNN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#245#268#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensorflow_proj/RNN_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensorflow_proj/Wrok2Vec.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2108">
-          <caret line="124" column="41" lean-forward="false" selection-start-line="124" selection-start-column="41" selection-end-line="124" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python2.7/dist-packages/tensorflow/contrib/learn/python/learn/datasets/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1409">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensorflow_proj/ReadMe">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensorflow_proj/Reading_Data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="73" column="16" lean-forward="false" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/image_ops_impl.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -724,19 +621,155 @@
     </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/tensorflow/python/training/input.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="1171" column="19" lean-forward="false" selection-start-line="1171" selection-start-column="8" selection-end-line="1171" selection-end-column="19" />
+        <state relative-caret-position="302">
+          <caret line="1214" column="16" lean-forward="false" selection-start-line="1214" selection-start-column="6" selection-end-line="1214" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/numpy/core/numeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="530" column="0" lean-forward="false" selection-start-line="530" selection-start-column="0" selection-end-line="530" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/tensorflow/contrib/training/python/training/sequence_queueing_state_saver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-55">
+          <caret line="922" column="6" lean-forward="false" selection-start-line="922" selection-start-column="6" selection-end-line="922" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/tensorflow/python/ops/gen_image_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="560" column="4" lean-forward="false" selection-start-line="560" selection-start-column="4" selection-end-line="560" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/shutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="209" column="4" lean-forward="false" selection-start-line="209" selection-start-column="4" selection-end-line="209" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175">
+          <caret line="795" column="8" lean-forward="false" selection-start-line="795" selection-start-column="8" selection-end-line="795" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/tensorflow/contrib/learn/python/learn/datasets/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2534">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.5/dist-packages/tensorflow/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_proj/Wrok2Vec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="105" column="25" lean-forward="false" selection-start-line="105" selection-start-column="25" selection-end-line="105" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/tensorflow/examples/tutorials/mnist/input_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-299">
+          <caret line="223" column="41" lean-forward="false" selection-start-line="223" selection-start-column="34" selection-end-line="223" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_proj/ReadMe">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_proj/Reading_Data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="46" column="37" lean-forward="false" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_proj/CNN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="78" column="13" lean-forward="false" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="13" />
+          <folding>
+            <element signature="e#245#268#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_proj/RNN_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-731">
+          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python2.7/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="892" column="0" lean-forward="false" selection-start-line="892" selection-start-column="0" selection-end-line="892" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/-1247972723/numpy/core/multiarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="5654" column="4" lean-forward="false" selection-start-line="5654" selection-start-column="4" selection-end-line="5654" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tensorflow_proj/GAN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="492">
+          <caret line="104" column="34" lean-forward="true" selection-start-line="104" selection-start-column="34" selection-end-line="104" selection-end-column="34" />
           <folding>
             <element signature="e#0#64#0" expanded="true" />
-            <element signature="e#8014#9212#0" expanded="false" />
+            <element signature="e#2461#2900#0" expanded="false" />
+            <element signature="e#7820#8495#0" expanded="false" />
+            <element signature="e#8528#9726#0" expanded="false" />
           </folding>
         </state>
       </provider>

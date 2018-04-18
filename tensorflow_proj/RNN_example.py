@@ -5,7 +5,7 @@ tf.set_random_seed(1)
 
 
 lr = 0.001
-training_iters = 1000000
+training_iters = 100000
 # number of input image each time
 batch_size = 128
 # image size 28 row *28 column

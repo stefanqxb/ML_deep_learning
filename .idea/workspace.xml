@@ -2,45 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2517e80a-3d4b-4e8a-b480-caf1f460f6b4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/11.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/11.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/15.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/15.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/17.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/17.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/18.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/18.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/19.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/19.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/21.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/21.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/22.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/22.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/23.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/23.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/25.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/25.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/26.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/26.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/27.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/27.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/28.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/28.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/29.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/29.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/31.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/31.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/32.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/32.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/33.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/33.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/34.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/34.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/35.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/35.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/36.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/36.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/37.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/37.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/38.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/38.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/39.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/39.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/4.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/4.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/40.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/40.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/41.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/41.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/42.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/42.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/43.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/43.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/44.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/44.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/45.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/45.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/5.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/5.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/7.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/7.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/8.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/8.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/0.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/0.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/1.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/1.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/10.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/10.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/11.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/11.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/12.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/12.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/13.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/13.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/14.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/14.jpeg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/15.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/15.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/16.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/16.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/17.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/17.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/18.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/18.jpeg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/19.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/19.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/2.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/2.jpeg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/20.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/20.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/21.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/21.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/22.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/22.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/23.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/23.jpeg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/24.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/24.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/25.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/25.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/26.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/26.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/27.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/27.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/28.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/28.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/29.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/29.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/3.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/3.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/30.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/30.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/31.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/31.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/32.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/32.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/33.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/33.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/34.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/34.jpeg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/35.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/35.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/36.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/36.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/37.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/37.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/38.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/38.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/39.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/39.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/4.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/4.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/40.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/40.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/41.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/41.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/42.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/42.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/43.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/43.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/44.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/44.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/5.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/5.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/6.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/6.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/7.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/7.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/8.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/8.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/9.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/9.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/trained_model/GAN_model.data-00000-of-00001" afterPath="$PROJECT_DIR$/tensorflow_proj/trained_model/GAN_model.data-00000-of-00001" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/trained_model/GAN_model.index" afterPath="$PROJECT_DIR$/tensorflow_proj/trained_model/GAN_model.index" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/GAN.py" afterPath="$PROJECT_DIR$/tensorflow_proj/GAN.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/trained_model/GAN_model.meta" afterPath="$PROJECT_DIR$/tensorflow_proj/trained_model/GAN_model.meta" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,8 +68,8 @@
       <file leaf-file-name="CNN.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tensorflow_proj/CNN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="98" column="24" lean-forward="false" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="24" />
+            <state relative-caret-position="136">
+              <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="29" />
               <folding>
                 <element signature="e#245#268#0" expanded="true" />
               </folding>
@@ -81,17 +92,16 @@
       <file leaf-file-name="GAN.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tensorflow_proj/GAN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="787">
-              <caret line="138" column="87" lean-forward="false" selection-start-line="138" selection-start-column="87" selection-end-line="138" selection-end-column="87" />
+            <state relative-caret-position="255">
+              <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
               <folding>
                 <element signature="e#0#64#0" expanded="true" />
-                <element signature="e#763#878#0" expanded="false" />
-                <element signature="e#932#1860#0" expanded="false" />
-                <element signature="e#1916#2519#0" expanded="false" />
-                <element signature="e#2552#2991#0" expanded="false" />
-                <element signature="e#3055#3202#0" expanded="false" />
-                <element signature="e#8110#8785#0" expanded="false" />
-                <element signature="e#8818#10016#0" expanded="false" />
+                <element signature="e#715#830#0" expanded="false" />
+                <element signature="e#884#1812#0" expanded="false" />
+                <element signature="e#1868#2471#0" expanded="false" />
+                <element signature="e#2504#2943#0" expanded="false" />
+                <element signature="e#3007#3154#0" expanded="false" />
+                <element signature="e#8124#8799#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -672,6 +682,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2534">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -694,6 +705,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-299">
           <caret line="223" column="41" lean-forward="false" selection-start-line="223" selection-start-column="34" selection-end-line="223" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -756,8 +768,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tensorflow_proj/CNN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="98" column="24" lean-forward="false" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="24" />
+        <state relative-caret-position="136">
+          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="29" />
           <folding>
             <element signature="e#245#268#0" expanded="true" />
           </folding>
@@ -766,17 +778,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tensorflow_proj/GAN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="787">
-          <caret line="138" column="87" lean-forward="false" selection-start-line="138" selection-start-column="87" selection-end-line="138" selection-end-column="87" />
+        <state relative-caret-position="255">
+          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding>
             <element signature="e#0#64#0" expanded="true" />
-            <element signature="e#763#878#0" expanded="false" />
-            <element signature="e#932#1860#0" expanded="false" />
-            <element signature="e#1916#2519#0" expanded="false" />
-            <element signature="e#2552#2991#0" expanded="false" />
-            <element signature="e#3055#3202#0" expanded="false" />
-            <element signature="e#8110#8785#0" expanded="false" />
-            <element signature="e#8818#10016#0" expanded="false" />
+            <element signature="e#715#830#0" expanded="false" />
+            <element signature="e#884#1812#0" expanded="false" />
+            <element signature="e#1868#2471#0" expanded="false" />
+            <element signature="e#2504#2943#0" expanded="false" />
+            <element signature="e#3007#3154#0" expanded="false" />
+            <element signature="e#8124#8799#0" expanded="false" />
           </folding>
         </state>
       </provider>

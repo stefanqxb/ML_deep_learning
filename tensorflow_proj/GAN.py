@@ -13,18 +13,14 @@ from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("/tmp/data/", one_hot=True)
 
 # Training Params
-num_steps = 200
-batch_size = 60
-learning_rate = 0.001
-
-# Hidden Layer number
-g_hidden_num = 3
-d_hidden_num = 3
+num_steps = 1000
+batch_size = 128
+learning_rate = 0.00002
 
 # Network Params
-image_dim = 16384 # 128*128 pixels
-gen_hidden_dim = 128
-disc_hidden_dim = 128
+image_dim = 784 #16384 # 128*128 pixels
+gen_hidden_dim = 256
+disc_hidden_dim = 256
 noise_dim = 100  # Noise data points
 model_path = "/home/exuaqiu/xuanbin/ML/tensorflow_proj/trained_model/GAN_model"
 
@@ -195,9 +191,8 @@ def train_model():
 
     train_gen, train_disc, gen_loss, disc_loss = build_network(gen_input, disc_input, weights, biases)
 
-    tmp_pics = resize_pic_from_data(pics_path="/home/exuaqiu/xuanbin/ML/tensorflow_proj/pic_data/special_force", pic_size=(1, image_dim))
-
-    tf_pics = prepare_training_data_set(tmp_pics, tf_size=image_dim)
+    #tmp_pics = resize_pic_from_data(pics_path="/home/exuaqiu/xuanbin/ML/tensorflow_proj/pic_data/special_force", pic_size=(1, image_dim))
+    #tf_pics = prepare_training_data_set(tmp_pics, tf_size=image_dim)
 
     init = tf.global_variables_initializer()
     # 'Saver' op to save and restore all the variables
@@ -207,7 +202,8 @@ def train_model():
         sess.run(init)
         for i in range(1, num_steps + 1):
             # Prepare Data, Get the next batch of MNIST data (only images are needed, not labels)
-            batch_x = radmon_select_training_data(tf_pics, batch_size)
+            #batch_x = radmon_select_training_data(tf_pics, batch_size)
+            batch_x, _ = mnist.train.next_batch(batch_size)
             # Generate noise to feed to the generator
             z = np.random.uniform(-1., 1., size=[batch_size, noise_dim])
             # specify fetches, and only care about the last two, gen_loss and disc_loss
@@ -273,8 +269,8 @@ def test_trained_model():
 
 def main():
     #covert_pic_to_jpeg(pic_data_path="/home/exuaqiu/xuanbin/ML/tensorflow_proj/pic_data/special_force")
-    train_model()
-    #test_trained_model()
+    #train_model()
+    test_trained_model()
     #standarlized_pics = resize_pic_from_data(pics_path="/home/exuaqiu/xuanbin/ML/tensorflow_proj/pic_data/special_force",  pic_size=(256,256))
     #view_pics(standarlized_pics)
 

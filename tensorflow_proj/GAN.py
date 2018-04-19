@@ -17,6 +17,10 @@ num_steps = 200
 batch_size = 60
 learning_rate = 0.001
 
+# Hidden Layer number
+g_hidden_num = 3
+d_hidden_num = 3
+
 # Network Params
 image_dim = 16384 # 128*128 pixels
 gen_hidden_dim = 128
@@ -24,6 +28,8 @@ disc_hidden_dim = 128
 noise_dim = 100  # Noise data points
 model_path = "/home/exuaqiu/xuanbin/ML/tensorflow_proj/trained_model/GAN_model"
 
+
+# ---  preparation of pics --- #
 
 def covert_pic_to_jpeg(pic_data_path):
     """ covert all pic to jpeg """
@@ -97,29 +103,41 @@ def radmon_select_training_data(images_set, batch_size):
     return batch_img
 
 
+# ---  structure GAN model --- #
+
+
 def glorot_init(shape):
     return tf.random_normal(shape=shape, stddev=1. / tf.sqrt(shape[0] / 2.))
 
 
+def add_hidden_layer(input_x, weight, bias):
+    """ add hidden layer """
+    hidden_layer = tf.matmul(input_x, weight)
+    hidden_layer = tf.add(hidden_layer, bias)
+    hidden_layer = tf.nn.relu(hidden_layer)
+    return hidden_layer
+
+
+def add_output_layer(input, weight, bias):
+    """ add output layer """
+    out_layer = tf.matmul(input, weight)
+    out_layer = tf.add(out_layer, bias)
+    out_layer = tf.nn.sigmoid(out_layer)
+    return out_layer
+
+
 # Generator
 def generator(x, weights, biases):
-    hidden_layer = tf.matmul(x, weights['gen_hidden1'])
-    hidden_layer = tf.add(hidden_layer, biases['gen_hidden1'])
-    hidden_layer = tf.nn.relu(hidden_layer)
-    out_layer = tf.matmul(hidden_layer, weights['gen_out'])
-    out_layer = tf.add(out_layer, biases['gen_out'])
-    out_layer = tf.nn.sigmoid(out_layer)
+
+    hidden_layer = add_hidden_layer(x, weights['gen_hidden1'], biases['gen_hidden1'])
+    out_layer = add_output_layer(hidden_layer, weights['gen_out'], biases['gen_out'])
     return out_layer
 
 
 # Discriminator
 def discriminator(x, weights, biases):
-    hidden_layer = tf.matmul(x, weights['disc_hidden1'])
-    hidden_layer = tf.add(hidden_layer, biases['disc_hidden1'])
-    hidden_layer = tf.nn.relu(hidden_layer)
-    out_layer = tf.matmul(hidden_layer, weights['disc_out'])
-    out_layer = tf.add(out_layer, biases['disc_out'])
-    out_layer = tf.nn.sigmoid(out_layer)
+    hidden_layer = add_hidden_layer(x, weights['disc_hidden1'], biases['disc_hidden1'])
+    out_layer = add_output_layer(hidden_layer, weights['disc_out'], biases['disc_out'])
     return out_layer
 
 
@@ -254,7 +272,7 @@ def test_trained_model():
 
 
 def main():
-    covert_pic_to_jpeg(pic_data_path="/home/exuaqiu/xuanbin/ML/tensorflow_proj/pic_data/special_force")
+    #covert_pic_to_jpeg(pic_data_path="/home/exuaqiu/xuanbin/ML/tensorflow_proj/pic_data/special_force")
     train_model()
     #test_trained_model()
     #standarlized_pics = resize_pic_from_data(pics_path="/home/exuaqiu/xuanbin/ML/tensorflow_proj/pic_data/special_force",  pic_size=(256,256))

@@ -51,6 +51,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/trained_model/GAN_model.index" afterPath="$PROJECT_DIR$/tensorflow_proj/trained_model/GAN_model.index" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/GAN.py" afterPath="$PROJECT_DIR$/tensorflow_proj/GAN.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/ReadMe" afterPath="$PROJECT_DIR$/tensorflow_proj/ReadMe" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/trained_model/GAN_model.meta" afterPath="$PROJECT_DIR$/tensorflow_proj/trained_model/GAN_model.meta" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,17 +93,26 @@
       <file leaf-file-name="GAN.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tensorflow_proj/GAN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            <state relative-caret-position="261">
+              <caret line="88" column="29" lean-forward="true" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
               <folding>
                 <element signature="e#0#64#0" expanded="true" />
-                <element signature="e#715#830#0" expanded="false" />
-                <element signature="e#884#1812#0" expanded="false" />
-                <element signature="e#1868#2471#0" expanded="false" />
-                <element signature="e#2504#2943#0" expanded="false" />
-                <element signature="e#3007#3154#0" expanded="false" />
-                <element signature="e#8124#8799#0" expanded="false" />
+                <element signature="e#750#865#0" expanded="false" />
+                <element signature="e#1903#2743#0" expanded="false" />
+                <element signature="e#3279#3426#0" expanded="false" />
+                <element signature="e#4580#5878#0" expanded="false" />
+                <element signature="e#8396#9071#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadMe" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tensorflow_proj/ReadMe">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -192,12 +202,12 @@
         <option value="$PROJECT_DIR$/tensorflow_proj/activation_function.py" />
         <option value="$PROJECT_DIR$/tensorflow_proj/Test_GAN.py" />
         <option value="$PROJECT_DIR$/Some issue_solution" />
-        <option value="$PROJECT_DIR$/tensorflow_proj/ReadMe" />
         <option value="$PROJECT_DIR$/Reading_Data.py" />
         <option value="$PROJECT_DIR$/tensorflow_proj/Wrok2Vec.py" />
         <option value="$PROJECT_DIR$/tensorflow_proj/RNN_example.py" />
         <option value="$PROJECT_DIR$/tensorflow_proj/Reading_Data.py" />
         <option value="$PROJECT_DIR$/tensorflow_proj/CNN.py" />
+        <option value="$PROJECT_DIR$/tensorflow_proj/ReadMe" />
         <option value="$PROJECT_DIR$/tensorflow_proj/GAN.py" />
       </list>
     </option>
@@ -395,7 +405,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14323749" sideWeight="0.49348232" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3429487" sideWeight="0.3887114" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3301282" sideWeight="0.6112886" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3301282" sideWeight="0.6112886" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -632,6 +642,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="1018" column="4" lean-forward="false" selection-start-line="1018" selection-start-column="4" selection-end-line="1018" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -709,13 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tensorflow_proj/ReadMe">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/lib/python2.7/random.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
@@ -727,6 +731,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
           <caret line="5654" column="4" lean-forward="false" selection-start-line="5654" selection-start-column="4" selection-end-line="5654" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -776,18 +781,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tensorflow_proj/GAN.py">
+    <entry file="file://$PROJECT_DIR$/tensorflow_proj/ReadMe">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_proj/GAN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="88" column="29" lean-forward="true" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
           <folding>
             <element signature="e#0#64#0" expanded="true" />
-            <element signature="e#715#830#0" expanded="false" />
-            <element signature="e#884#1812#0" expanded="false" />
-            <element signature="e#1868#2471#0" expanded="false" />
-            <element signature="e#2504#2943#0" expanded="false" />
-            <element signature="e#3007#3154#0" expanded="false" />
-            <element signature="e#8124#8799#0" expanded="false" />
+            <element signature="e#750#865#0" expanded="false" />
+            <element signature="e#1903#2743#0" expanded="false" />
+            <element signature="e#3279#3426#0" expanded="false" />
+            <element signature="e#4580#5878#0" expanded="false" />
+            <element signature="e#8396#9071#0" expanded="false" />
           </folding>
         </state>
       </provider>

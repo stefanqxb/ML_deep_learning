@@ -15,7 +15,7 @@ most import concepts:
     cell_status(memory), output_state, input, input_gate, reset_gate, output_gate
 
 --GAN:
-   generator descrimator
+   generator descrimator, generator loss should be high and reduce and descriminator should be low and increase
 
 useful link
 

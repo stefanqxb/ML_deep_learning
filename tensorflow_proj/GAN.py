@@ -13,12 +13,14 @@ from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("/tmp/data/", one_hot=True)
 
 # Training Params
-num_steps = 1000
-batch_size = 128
+num_steps = 2000
+batch_size = 128 #128 / 9
 learning_rate = 0.00002
 
+pic_size = 28 #128
+
 # Network Params
-image_dim = 784 #16384 # 128*128 pixels
+image_dim = 784 # 128*128 pixels  # 784 28*28
 gen_hidden_dim = 256
 disc_hidden_dim = 256
 noise_dim = 100  # Noise data points
@@ -69,9 +71,14 @@ def prepare_training_data_set(pic_set, tf_size):
         for h in range(0, height):
             for w in range(0, width):
                 # convert the rgb value to one unique value to represent the color
-                tf_pics[index][pix_index] = 65536* pix[w, h][0] + 256*pix[w, h][1] + pix[w, h][2]
+                #tf_pics[index][pix_index] = 65536 * pix[w, h][0] + 256*pix[w, h][1] + pix[w, h][2]
+                tf_pics[index][pix_index] = 0.09 * pix[w, h][0] + 0.05 * pix[w, h][1] + 0.09 * pix[w, h][2]
                 pix_index += 1
             pix_index += 1
+
+        with tf.Session() as sess:
+            tf_pics = tf_pics.astype(dtype="float32")
+            tf.norm(tf_pics, axis=1)
     return tf_pics
 
 
@@ -252,7 +259,7 @@ def test_trained_model():
         sess.run(init)
         # Generate images from noise, using the generator network.
         n = 4
-        canvas = np.empty((28 * n, 28 * n))
+        canvas = np.empty((pic_size * n, pic_size * n))
         for i in range(n):
             z = 5 * np.random.uniform(-1., 1., size=[n, noise_dim])
             g = sess.run(gen_sample, feed_dict={gen_input: z})
@@ -260,7 +267,7 @@ def test_trained_model():
             g = -1 * (g - 1)
             for j in range(n):
                 # Draw the generated digits
-                canvas[i * 28:(i + 1) * 28, j * 28:(j + 1) * 28] = g[j].reshape([28, 28])
+                canvas[i * pic_size:(i + 1) * pic_size, j * pic_size:(j + 1) * pic_size] = g[j].reshape([pic_size, pic_size])
 
         plt.figure(figsize=(n, n))
         plt.imshow(canvas, origin="upper", cmap="gray")
@@ -270,9 +277,9 @@ def test_trained_model():
 def main():
     #covert_pic_to_jpeg(pic_data_path="/home/exuaqiu/xuanbin/ML/tensorflow_proj/pic_data/special_force")
     #train_model()
-    test_trained_model()
-    #standarlized_pics = resize_pic_from_data(pics_path="/home/exuaqiu/xuanbin/ML/tensorflow_proj/pic_data/special_force",  pic_size=(256,256))
-    #view_pics(standarlized_pics)
+    #test_trained_model()
+    standarlized_pics = resize_pic_from_data(pics_path="/home/exuaqiu/xuanbin/ML/tensorflow_proj/pic_data/special_force",  pic_size=(28, 28))
+    view_pics(standarlized_pics)
 
 
 if __name__ == '__main__':

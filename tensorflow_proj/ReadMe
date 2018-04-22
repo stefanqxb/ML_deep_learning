@@ -9,8 +9,68 @@
 
 most import concepts:
 
+    -- neural network --- in each conv layer, each neural is a filter with one size (5*5 or 3*3...), the
+                          total number of the neural in each layer represents the number of the features
+                          extract from one pic,
+
+                          in each conv layer, each neural has the same size, but the kernel(mask) might be different,
+                          and therefore, it fetches different feature of subpart of the pic
+
 --CNN:
     convolution layer, pooling layer
+    url: http://www.jeyzhang.com/cnn-learning-notes-1.html
+    -- classic one:
+        pre-step:
+            比如去均值（把输入数据各个维度都中心化为0，避免数据过多偏差，影响训练效果）、归一化（把所有的数据都归一到同样的范围）、PCA/白化等等。
+            classic CNN只对训练集做“去均值”这一步
+        steps:
+            1. conv the pic
+            2. relu layer(activation function)
+            3. pooling the conv output
+            4. full-connected layer
+            5. dropout
+            6. outputlayer
+
+    -- classic RCNN (Regions with CNN features)
+        steps:
+            1. Proposal提取的目标图像进行归一化，作为CNN的标准输入
+            2-5: like classic
+            6. sent the output from step 5 to SVM(or softmax) to classify if it belongs to certain labels
+            7. use 边界回归（bounding-box regression) 得到精确的目标区域，由于实际目标会产生多个子区域，
+               旨在对完成分类的前景目标进行精确的定位与合并，避免多个检出。
+        problems:
+            1）多个候选区域对应的图像需要预先提取，占用较大的磁盘空间；
+            2）classic CNN needs same size input (conv layer does not need, but full-connected layer needs), and needs crop/warp（归一化）产生物体截断或拉伸，会导致输入CNN的信息丢失
+            3）每一个ProposalRegion都需要进入CNN网络计算，上千个Region存在大量的范围重叠，重复的特征提取带来巨大的计算浪费
+    -- SPP-NET:
+        difference compare to RCNN: to support different size of input:
+        reason: if input size is different, after going through each conv layer, it will output different feature map
+        HOW SSP works:
+            the last SSP layer is using multiple bins and each bin has a different size to match the final full-connected layer size
+            我们再以两种大小13*13，10*10的feature map来举例，这两个feature map大小不同，我们使用三种尺度的filter来做pooling，
+            但最终的结果是可以得到4*4，2*2，1大小的256channels的feature map。那么再把这些feature map 级联在一起，
+            就可以有固定大小的输出了。其实就是无论多大的feature map输入到SPP中，SPP都会输出一个固定的k*M大小输出。
+            M就是我们选择的4*4+2*2+1，k就是输入feature map的通道数
+        steps:
+            1. input the pic directly into CNN
+            2-3. the same as classic
+            4. replace last pooling layer before full-connected layer with SpatialPyramid Pooling (SSP),
+            5. sent the output from step 5 to SVM(or softmax) to classify if it belongs to certain labels
+            6. use 边界回归（bounding-box regression) 得到精确的目标区域，由于实际目标会产生多个子区域，
+               旨在对完成分类的前景目标进行精确的定位与合并，避免多个检出。
+        special compare to RCNN:
+            1. drop the crop/wrap steps like the first one
+            2. reduce the computational time and decrease the computational cost by using SSP
+        problem:
+            1. 和RCNN一样，训练过程仍然是隔离的，提取候选框 | 计算CNN特征| SVM分类 | Bounding Box回归独立训练，大量的中间结果需要转存，无法整体训练参数；
+            2. SPP-Net在无法同时Tuning在SPP-Layer两边的卷积层和全连接层，很大程度上限制了深度CNN的效果；
+            3. 在整个过程中，Proposal Region仍然很耗时
+    -- Faster-RCNN (Fast RCNN solve the 1,2 problem in SPP NET):
+        theory: 候选框提取不一定要在原图上做，特征图上同样可以
+        RPN网络的特点在于通过滑动窗口的方式实现候选框的提取，每个滑动窗口位置生成9个候选窗口（不同尺度、不同宽高），提取对应9个候选窗口（anchor）的特征，
+        用于目标分类和边框回归，与FastRCNN类似。目标分类只需要区分候选框内特征为前景或者背景
+
+
 --RNN:
     cell_status(memory), output_state, input, input_gate, reset_gate, output_gate
 

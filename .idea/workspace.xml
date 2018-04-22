@@ -2,51 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2517e80a-3d4b-4e8a-b480-caf1f460f6b4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/0.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/0.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/1.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/1.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/10.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/10.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/11.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/11.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/12.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/12.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/13.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/13.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/14.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/14.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/15.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/15.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/16.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/16.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/17.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/17.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/18.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/18.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/19.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/19.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/2.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/2.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/20.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/20.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/21.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/21.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/22.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/22.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/23.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/23.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/24.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/24.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/25.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/25.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/26.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/26.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/27.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/27.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/28.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/28.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/29.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/29.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/3.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/3.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/30.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/30.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/31.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/31.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/32.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/32.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/33.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/33.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/34.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/34.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/35.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/35.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/36.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/36.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/37.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/37.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/38.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/38.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/39.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/39.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/4.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/4.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/40.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/40.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/41.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/41.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/42.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/42.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/43.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/43.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/44.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/44.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/5.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/5.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/6.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/6.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/7.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/7.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/8.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/8.jpeg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/9.jpeg" afterPath="$PROJECT_DIR$/tensorflow_proj/pic_data/special_force/tmp/9.jpeg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/trained_model/GAN_model.data-00000-of-00001" afterPath="$PROJECT_DIR$/tensorflow_proj/trained_model/GAN_model.data-00000-of-00001" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/trained_model/GAN_model.index" afterPath="$PROJECT_DIR$/tensorflow_proj/trained_model/GAN_model.index" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -69,8 +24,8 @@
       <file leaf-file-name="CNN.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tensorflow_proj/CNN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="311">
+              <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
               <folding>
                 <element signature="e#245#268#0" expanded="true" />
               </folding>
@@ -81,7 +36,7 @@
       <file leaf-file-name="RNN_example.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tensorflow_proj/RNN_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="170">
               <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
@@ -90,28 +45,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GAN.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GAN.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tensorflow_proj/GAN.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="88" column="29" lean-forward="true" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
+            <state relative-caret-position="492">
+              <caret line="169" column="22" lean-forward="true" selection-start-line="169" selection-start-column="22" selection-end-line="169" selection-end-column="22" />
               <folding>
                 <element signature="e#0#64#0" expanded="true" />
-                <element signature="e#750#865#0" expanded="false" />
-                <element signature="e#1903#2743#0" expanded="false" />
-                <element signature="e#3279#3426#0" expanded="false" />
-                <element signature="e#4580#5878#0" expanded="false" />
-                <element signature="e#8396#9071#0" expanded="false" />
+                <element signature="e#921#1849#0" expanded="false" />
+                <element signature="e#2784#3383#0" expanded="false" />
+                <element signature="e#3447#3594#0" expanded="false" />
+                <element signature="e#8569#9244#0" expanded="false" />
+                <element signature="e#9277#10523#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReadMe" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReadMe" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tensorflow_proj/ReadMe">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="465">
+              <caret line="70" column="8" lean-forward="false" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -120,7 +75,7 @@
       <file leaf-file-name="Wrok2Vec.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tensorflow_proj/Wrok2Vec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="852">
+            <state relative-caret-position="1632">
               <caret line="105" column="25" lean-forward="false" selection-start-line="105" selection-start-column="25" selection-end-line="105" selection-end-column="25" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -207,13 +162,13 @@
         <option value="$PROJECT_DIR$/tensorflow_proj/RNN_example.py" />
         <option value="$PROJECT_DIR$/tensorflow_proj/Reading_Data.py" />
         <option value="$PROJECT_DIR$/tensorflow_proj/CNN.py" />
-        <option value="$PROJECT_DIR$/tensorflow_proj/ReadMe" />
         <option value="$PROJECT_DIR$/tensorflow_proj/GAN.py" />
+        <option value="$PROJECT_DIR$/tensorflow_proj/ReadMe" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1918" />
+    <option name="x" value="-2" />
     <option name="y" value="-1" />
     <option name="width" value="1924" />
     <option name="height" value="1059" />
@@ -234,6 +189,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,7 +206,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -399,19 +354,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1918" y="-1" width="1924" height="1059" extended-state="0" />
+    <frame x="-2" y="-1" width="1924" height="1059" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14323749" sideWeight="0.49348232" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14483494" sideWeight="0.49348232" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3429487" sideWeight="0.3887114" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3301282" sideWeight="0.6112886" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3301282" sideWeight="0.6112886" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3985043" sideWeight="0.49361023" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2234375" sideWeight="0.5065177" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3985043" sideWeight="0.49361023" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -642,7 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="1018" column="4" lean-forward="false" selection-start-line="1018" selection-start-column="4" selection-end-line="1018" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -693,7 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2534">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -716,7 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-299">
           <caret line="223" column="41" lean-forward="false" selection-start-line="223" selection-start-column="34" selection-end-line="223" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -731,7 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
           <caret line="5654" column="4" lean-forward="false" selection-start-line="5654" selection-start-column="4" selection-end-line="5654" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -745,7 +696,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tensorflow_proj/RNN_example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="170">
           <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
@@ -755,7 +706,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tensorflow_proj/Wrok2Vec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="852">
+        <state relative-caret-position="1632">
           <caret line="105" column="25" lean-forward="false" selection-start-line="105" selection-start-column="25" selection-end-line="105" selection-end-column="25" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -767,14 +718,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
           <caret line="3865" column="18" lean-forward="false" selection-start-line="3865" selection-start-column="12" selection-end-line="3865" selection-end-column="18" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_proj/GAN.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="169" column="22" lean-forward="true" selection-start-line="169" selection-start-column="22" selection-end-line="169" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+            <element signature="e#921#1849#0" expanded="false" />
+            <element signature="e#2784#3383#0" expanded="false" />
+            <element signature="e#3447#3594#0" expanded="false" />
+            <element signature="e#8569#9244#0" expanded="false" />
+            <element signature="e#9277#10523#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tensorflow_proj/CNN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="311">
+          <caret line="55" column="29" lean-forward="true" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
           <folding>
             <element signature="e#245#268#0" expanded="true" />
           </folding>
@@ -783,24 +748,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tensorflow_proj/ReadMe">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="465">
+          <caret line="70" column="8" lean-forward="false" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tensorflow_proj/GAN.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="88" column="29" lean-forward="true" selection-start-line="88" selection-start-column="29" selection-end-line="88" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-            <element signature="e#750#865#0" expanded="false" />
-            <element signature="e#1903#2743#0" expanded="false" />
-            <element signature="e#3279#3426#0" expanded="false" />
-            <element signature="e#4580#5878#0" expanded="false" />
-            <element signature="e#8396#9071#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>

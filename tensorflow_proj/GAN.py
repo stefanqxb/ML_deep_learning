@@ -13,8 +13,8 @@ from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("/tmp/data/", one_hot=True)
 
 # Training Params
-num_steps = 2000
-batch_size = 128 #128 / 9
+num_steps = 10000
+batch_size = 128  #128 / 9
 learning_rate = 0.00002
 
 pic_size = 28 #128
@@ -72,7 +72,7 @@ def prepare_training_data_set(pic_set, tf_size):
             for w in range(0, width):
                 # convert the rgb value to one unique value to represent the color
                 #tf_pics[index][pix_index] = 65536 * pix[w, h][0] + 256*pix[w, h][1] + pix[w, h][2]
-                tf_pics[index][pix_index] = 0.09 * pix[w, h][0] + 0.05 * pix[w, h][1] + 0.09 * pix[w, h][2]
+                tf_pics[index][pix_index] = 0.0008 * pix[w, h][0] + 0.0005 * pix[w, h][1] + 0.0003 * pix[w, h][2]
                 pix_index += 1
             pix_index += 1
 
@@ -87,7 +87,9 @@ def view_pics(pics_path):
     view_pic = []
     with tf.Session() as sess:
         for pic in pics_path:
-            resized_pic = np.asarray(pic.eval(), dtype='uint8')
+            image_raw_data_jpg = tf.gfile.FastGFile(pic, 'r').read()
+            image_decoded = tf.image.decode_jpeg(image_raw_data_jpg, channels=3)
+            resized_pic = np.asarray(image_decoded.eval(), dtype='uint8')
             view_pic.append(resized_pic)
 
     n_images = len(view_pic)
@@ -175,7 +177,7 @@ def build_network(gen_input, disc_input, weights, biases):
     return train_gen, train_disc, gen_loss, disc_loss
 
 
-def train_model():
+def train_model(pic_path=""):
     """ start training GAN model """
     gen_input = tf.placeholder(tf.float32, shape=[None, noise_dim], name='input_noise')
     disc_input = tf.placeholder(tf.float32, shape=[None, image_dim], name='disc_input')
@@ -198,7 +200,7 @@ def train_model():
 
     train_gen, train_disc, gen_loss, disc_loss = build_network(gen_input, disc_input, weights, biases)
 
-    #tmp_pics = resize_pic_from_data(pics_path="/home/exuaqiu/xuanbin/ML/tensorflow_proj/pic_data/special_force", pic_size=(1, image_dim))
+    #tmp_pics = resize_pic_from_data(pics_path=pic_path, pic_size=(1, image_dim))
     #tf_pics = prepare_training_data_set(tmp_pics, tf_size=image_dim)
 
     init = tf.global_variables_initializer()
@@ -209,14 +211,16 @@ def train_model():
         sess.run(init)
         for i in range(1, num_steps + 1):
             # Prepare Data, Get the next batch of MNIST data (only images are needed, not labels)
-            #batch_x = radmon_select_training_data(tf_pics, batch_size)
-            batch_x, _ = mnist.train.next_batch(batch_size)
+            if pic_path:
+                batch_x = radmon_select_training_data(tf_pics, batch_size)
+            else:
+                batch_x, _ = mnist.train.next_batch(batch_size)
             # Generate noise to feed to the generator
             z = np.random.uniform(-1., 1., size=[batch_size, noise_dim])
             # specify fetches, and only care about the last two, gen_loss and disc_loss
             _, _, gl, dl = sess.run([train_gen, train_disc, gen_loss, disc_loss],
                                     feed_dict={disc_input: batch_x, gen_input: z})
-            if i % 20 == 0 or i == 1:
+            if i % 100 == 0 or i == 1:
                 print('Step %i: Generator Loss: %f, Discriminator Loss: %f' % (i, gl, dl))
 
         saver.save(sess, model_path)
@@ -275,11 +279,12 @@ def test_trained_model():
 
 
 def main():
-    #covert_pic_to_jpeg(pic_data_path="/home/exuaqiu/xuanbin/ML/tensorflow_proj/pic_data/special_force")
-    #train_model()
+    pic_path = "/home/exuaqiu/xuanbin/ML/tensorflow_proj/pic_data/dog_icons"
+    #covert_pic_to_jpeg(pic_data_path=pic_path)
+    train_model()
     #test_trained_model()
-    standarlized_pics = resize_pic_from_data(pics_path="/home/exuaqiu/xuanbin/ML/tensorflow_proj/pic_data/special_force",  pic_size=(28, 28))
-    view_pics(standarlized_pics)
+    #standarlized_pics = resize_pic_from_data(pics_path=pic_path,  pic_size=(64, 64))
+    #view_pics(standarlized_pics)
 
 
 if __name__ == '__main__':

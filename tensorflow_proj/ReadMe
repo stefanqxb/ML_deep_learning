@@ -33,7 +33,7 @@ most import concepts:
 
     -- classic RCNN (Regions with CNN features)
         steps:
-            1. Proposal提取的目标图像进行归一化，作为CNN的标准输入
+            1. Proposal提取的目标图像 (候选区域对应的图像) 进行归一化，作为CNN的标准输入
             2-5: like classic
             6. sent the output from step 5 to SVM(or softmax) to classify if it belongs to certain labels
             7. use 边界回归（bounding-box regression) 得到精确的目标区域，由于实际目标会产生多个子区域，
@@ -59,31 +59,27 @@ most import concepts:
             6. use 边界回归（bounding-box regression) 得到精确的目标区域，由于实际目标会产生多个子区域，
                旨在对完成分类的前景目标进行精确的定位与合并，避免多个检出。
         special compare to RCNN:
-            1. drop the crop/wrap steps like the first one
+            1. no need to crop/wrap the input, which leads to same-sized pic, but still need to select the region
             2. reduce the computational time and decrease the computational cost by using SSP
         problem:
             1. 和RCNN一样，训练过程仍然是隔离的，提取候选框 | 计算CNN特征| SVM分类 | Bounding Box回归独立训练，大量的中间结果需要转存，无法整体训练参数；
             2. SPP-Net在无法同时Tuning在SPP-Layer两边的卷积层和全连接层，很大程度上限制了深度CNN的效果；
             3. 在整个过程中，Proposal Region仍然很耗时
+
     -- Faster-RCNN (Fast RCNN solve the 1,2 problem in SPP NET):
         theory: 候选框提取不一定要在原图上做，特征图上同样可以
         RPN网络的特点在于通过滑动窗口的方式实现候选框的提取，每个滑动窗口位置生成9个候选窗口（不同尺度、不同宽高），提取对应9个候选窗口（anchor）的特征，
         用于目标分类和边框回归，与FastRCNN类似。目标分类只需要区分候选框内特征为前景或者背景
 
-
 --RNN:
     cell_status(memory), output_state, input, input_gate, reset_gate, output_gate
+
+    LSTM: https://colah.github.io/posts/2015-08-Understanding-LSTMs/
+    GRU: http://blog.csdn.net/wangyangzhizhou/article/details/77332582
 
 --GAN:
    generator descrimator, generator loss should be high and reduce and descriminator should be low and increase
 
-useful link
-
-CNN:
-
-RNN:
-LSTM: https://colah.github.io/posts/2015-08-Understanding-LSTMs/
-GRU: http://blog.csdn.net/wangyangzhizhou/article/details/77332582
 
 
 当我们构建完图后，需要在一个会话中启动图，启动的第一步是创建一个Session对象。

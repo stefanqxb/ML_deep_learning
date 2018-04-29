@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2517e80a-3d4b-4e8a-b480-caf1f460f6b4" name="Default" comment="" />
+    <list default="true" id="2517e80a-3d4b-4e8a-b480-caf1f460f6b4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tensorflow_proj/Wrok2Vec.py" afterPath="$PROJECT_DIR$/tensorflow_proj/Wrok2Vec.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,10 +55,10 @@
       <file leaf-file-name="Wrok2Vec.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tensorflow_proj/Wrok2Vec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1784">
-              <caret line="184" column="0" lean-forward="false" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+            <state relative-caret-position="2260">
+              <caret line="279" column="45" lean-forward="true" selection-start-line="279" selection-start-column="45" selection-end-line="279" selection-end-column="45" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#720#758#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,7 +105,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>drop</find>
       <find>reshape</find>
       <find>RNN</find>
       <find>BasicLSTMCell</find>
@@ -130,6 +131,10 @@
       <find>standralized_pics</find>
       <find>print</find>
       <find>one_hot</find>
+      <find>count</find>
+      <find>reverse_dictionary</find>
+      <find>vocabulary</find>
+      <find>op</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -146,12 +151,12 @@
         <option value="$PROJECT_DIR$/tensorflow_proj/Test_GAN.py" />
         <option value="$PROJECT_DIR$/Some issue_solution" />
         <option value="$PROJECT_DIR$/Reading_Data.py" />
-        <option value="$PROJECT_DIR$/tensorflow_proj/Wrok2Vec.py" />
         <option value="$PROJECT_DIR$/tensorflow_proj/RNN_example.py" />
         <option value="$PROJECT_DIR$/tensorflow_proj/Reading_Data.py" />
         <option value="$PROJECT_DIR$/tensorflow_proj/CNN.py" />
         <option value="$PROJECT_DIR$/tensorflow_proj/GAN.py" />
         <option value="$PROJECT_DIR$/tensorflow_proj/ReadMe" />
+        <option value="$PROJECT_DIR$/tensorflow_proj/Wrok2Vec.py" />
       </list>
     </option>
   </component>
@@ -213,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.GAN">
+  <component name="RunManager" selected="Python.Wrok2Vec">
     <configuration name="GAN" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -308,11 +313,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.GAN" />
-        <item index="1" class="java.lang.String" itemvalue="Python.RNN_example" />
-        <item index="2" class="java.lang.String" itemvalue="Python.activation_function" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Reading_Data" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Wrok2Vec" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Wrok2Vec" />
+        <item index="1" class="java.lang.String" itemvalue="Python.GAN" />
+        <item index="2" class="java.lang.String" itemvalue="Python.RNN_example" />
+        <item index="3" class="java.lang.String" itemvalue="Python.activation_function" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Reading_Data" />
       </list>
     </recent_temporary>
   </component>
@@ -703,10 +708,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tensorflow_proj/Wrok2Vec.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1784">
-          <caret line="184" column="0" lean-forward="false" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+        <state relative-caret-position="2260">
+          <caret line="279" column="45" lean-forward="true" selection-start-line="279" selection-start-column="45" selection-end-line="279" selection-end-column="45" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#720#758#0" expanded="true" />
           </folding>
         </state>
       </provider>

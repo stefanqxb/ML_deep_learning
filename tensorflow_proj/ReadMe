@@ -8,7 +8,6 @@
 
 
 most import concepts:
-
     -- neural network --- in each conv layer, each neural is a filter with one size (5*5 or 3*3...), the
                           total number of the neural in each layer represents the number of the features
                           extract from one pic,
@@ -70,6 +69,8 @@ most import concepts:
         theory: 候选框提取不一定要在原图上做，特征图上同样可以
         RPN网络的特点在于通过滑动窗口的方式实现候选框的提取，每个滑动窗口位置生成9个候选窗口（不同尺度、不同宽高），提取对应9个候选窗口（anchor）的特征，
         用于目标分类和边框回归，与FastRCNN类似。目标分类只需要区分候选框内特征为前景或者背景
+    -- YOLO
+    -- SSD
 
 --RNN:
     cell_status(memory), output_state, input, input_gate, reset_gate, output_gate

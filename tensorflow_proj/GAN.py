@@ -12,22 +12,9 @@ from PIL import Image
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("/tmp/data/", one_hot=True)
 
-# Training Params
-num_steps = 10000
-batch_size = 128  #128 / 9
-learning_rate = 0.00002
-
-pic_size = 28 #128
-
-# Network Params
-image_dim = 784 # 128*128 pixels  # 784 28*28
-gen_hidden_dim = 256
-disc_hidden_dim = 256
-noise_dim = 100  # Noise data points
 model_path = "/home/exuaqiu/xuanbin/ML/tensorflow_proj/trained_model/GAN_model"
+learning_rate = 0.0002
 
-
-# ---  preparation of pics --- #
 
 def covert_pic_to_jpeg(pic_data_path):
     """ covert all pic to jpeg """
@@ -72,7 +59,7 @@ def prepare_training_data_set(pic_set, tf_size):
             for w in range(0, width):
                 # convert the rgb value to one unique value to represent the color
                 #tf_pics[index][pix_index] = 65536 * pix[w, h][0] + 256*pix[w, h][1] + pix[w, h][2]
-                tf_pics[index][pix_index] = 0.0008 * pix[w, h][0] + 0.0005 * pix[w, h][1] + 0.0003 * pix[w, h][2]
+                tf_pics[index][pix_index] = 0.001 * pix[w, h][0] + 0.0008 * pix[w, h][1] + 0.0005 * pix[w, h][2]
                 pix_index += 1
             pix_index += 1
 
@@ -177,8 +164,36 @@ def build_network(gen_input, disc_input, weights, biases):
     return train_gen, train_disc, gen_loss, disc_loss
 
 
+def prepare_training_params(own_data):
+    """ prepare training params """
+    num_steps = 10000
+    if not own_data:
+        # Training Params
+        batch_size = 8
+        pic_size = 128
+        # Network Params
+        image_dim = 16384
+        gen_hidden_dim = 256
+        disc_hidden_dim = 256
+        noise_dim = 100  # Noise data points
+    else:
+        # Training Params
+        batch_size = 128
+        pic_size = 28  # 128
+        # Network Params
+        image_dim = 784  # 128*128 pixels  # 784 28*28
+        gen_hidden_dim = 256
+        disc_hidden_dim = 256
+        noise_dim = 100  # Noise data points
+    return num_steps, batch_size, pic_size, image_dim, gen_hidden_dim, disc_hidden_dim, noise_dim
+
+
 def train_model(pic_path=""):
     """ start training GAN model """
+    own_data = True if pic_path else False
+
+    num_steps, batch_size, pic_size, image_dim, gen_hidden_dim, disc_hidden_dim, noise_dim = prepare_training_params(own_data)
+
     gen_input = tf.placeholder(tf.float32, shape=[None, noise_dim], name='input_noise')
     disc_input = tf.placeholder(tf.float32, shape=[None, image_dim], name='disc_input')
 
@@ -200,8 +215,9 @@ def train_model(pic_path=""):
 
     train_gen, train_disc, gen_loss, disc_loss = build_network(gen_input, disc_input, weights, biases)
 
-    #tmp_pics = resize_pic_from_data(pics_path=pic_path, pic_size=(1, image_dim))
-    #tf_pics = prepare_training_data_set(tmp_pics, tf_size=image_dim)
+    if pic_path:
+        tmp_pics = resize_pic_from_data(pics_path=pic_path, pic_size=(1, image_dim))
+        tf_pics = prepare_training_data_set(tmp_pics, tf_size=image_dim)
 
     init = tf.global_variables_initializer()
     # 'Saver' op to save and restore all the variables
@@ -245,8 +261,11 @@ def restore_weights_bias_for_generator(graph):
     return weights, biases
 
 
-def test_trained_model():
+def test_trained_model(pic_path=""):
     """ using the generator to generate some data for visuilize """
+    own_data = True if pic_path else False
+
+    num_steps, batch_size, pic_size, image_dim, gen_hidden_dim, disc_hidden_dim, noise_dim = prepare_training_params(own_data)
 
     gen_input = tf.placeholder(tf.float32, shape=[None, noise_dim], name='input_noise')
 
@@ -281,10 +300,10 @@ def test_trained_model():
 def main():
     pic_path = "/home/exuaqiu/xuanbin/ML/tensorflow_proj/pic_data/dog_icons"
     #covert_pic_to_jpeg(pic_data_path=pic_path)
-    train_model()
-    #test_trained_model()
+    #train_model(pic_path)
+    test_trained_model(pic_path)
     #standarlized_pics = resize_pic_from_data(pics_path=pic_path,  pic_size=(64, 64))
-    #view_pics(standarlized_pics)
+    #iew_pics(standarlized_pics)
 
 
 if __name__ == '__main__':

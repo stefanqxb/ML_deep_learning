@@ -6,6 +6,8 @@ import tensorflow as tf
 import glob
 import os
 import shutil
+from six.moves import urllib
+import requests
 from PIL import Image
 
 # Import MNIST data
@@ -21,6 +23,36 @@ def covert_pic_to_jpeg(pic_data_path):
     os.system("cd {}; mogrify -format jpeg *.*; rm -rf *.jpg".format(pic_data_path))
 
 
+def read_pic_url(url_file):
+    with open(url_file, "r") as urls:
+        pic_urls = urls.readlines()
+    return pic_urls
+
+
+def url_is_alive(url):
+    try:
+        request = requests.get(url, timeout=5)
+        if request.status_code != 200 or "unavailable" in str(request.url):
+            return False
+        return True
+    except Exception:
+        return False
+
+
+def download_url(pic_urls, file_store_path, download_size=None):
+    """ donwload certain number of pics """
+    successed_download_counter = 0
+    if not os.path.isdir(file_store_path):
+        os.makedirs(file_store_path)
+    pic_urls = pic_urls[:download_size] if download_size else pic_urls
+    for index, pic_url in enumerate(pic_urls):
+        if url_is_alive(pic_url):
+            print("Downloading " + str(index+1) + " url + " + pic_url)
+            local_filename, _ = urllib.request.urlretrieve(pic_url, filename=str(index + 1) + ".jpeg")
+            shutil.move(str(index + 1) + ".jpeg", file_store_path + local_filename)
+            successed_download_counter += 1
+
+
 def resize_pic_from_data(pics_path, pic_size):
     """ standardize the pic size """
     tmp_path = os.path.join(pics_path, "tmp")
@@ -32,6 +64,7 @@ def resize_pic_from_data(pics_path, pic_size):
     pic_batch = glob.glob(os.path.join(pics_path, "*.jpeg"))
     with tf.Session() as sess:
         for index, pic in enumerate(pic_batch):
+            print("Decoding pic:" + pic)
             image_raw_data_jpg = tf.gfile.FastGFile(pic, 'r').read()
             image_decoded = tf.image.decode_jpeg(image_raw_data_jpg, channels=3)
             resized = tf.image.resize_images(image_decoded, pic_size, method=0)
@@ -50,22 +83,24 @@ def prepare_training_data_set(pic_set, tf_size):
     tf_pics = np.array([[0] * tf_size for _ in range(len(pic_set))])
 
     for index, pic in enumerate(pic_set):
-        pix_index = 0
-        im = Image.open(pic)
-        pix = im.load()
-        width, height = im.size
+        with tf.Graph().as_default():
+            pix_index = 0
+            im = Image.open(pic)
+            pix = im.load()
+            width, height = im.size
 
-        for h in range(0, height):
-            for w in range(0, width):
-                # convert the rgb value to one unique value to represent the color
-                #tf_pics[index][pix_index] = 65536 * pix[w, h][0] + 256*pix[w, h][1] + pix[w, h][2]
-                tf_pics[index][pix_index] = 0.001 * pix[w, h][0] + 0.0008 * pix[w, h][1] + 0.0005 * pix[w, h][2]
+            for h in range(0, height):
+                for w in range(0, width):
+                    # convert the rgb value to one unique value to represent the color
+                    # https://stackoverflow.com/questions/687261/converting-rgb-to-grayscale-intensity?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+                    #tf_pics[index][pix_index] = 0.2126 * pix[w, h][0] + 0.7152 * pix[w, h][1] + 0.0722 * pix[w, h][2]
+                    tf_pics[index][pix_index] = 0.002 * pix[w, h][0] + 0.001 * pix[w, h][1] + 0.0008 * pix[w, h][2]
+                    pix_index += 1
                 pix_index += 1
-            pix_index += 1
 
-        with tf.Session() as sess:
-            tf_pics = tf_pics.astype(dtype="float32")
-            tf.norm(tf_pics, axis=1)
+            with tf.Session() as sess:
+                tf_pics = tf_pics.astype(dtype="float32")
+                tf.norm(tf_pics, axis=1)
     return tf_pics
 
 
@@ -80,7 +115,7 @@ def view_pics(pics_path):
             view_pic.append(resized_pic)
 
     n_images = len(view_pic)
-    cols = 5
+    cols = 10
 
     fig = plt.figure()
     for n, image in enumerate(view_pic):
@@ -166,13 +201,13 @@ def build_network(gen_input, disc_input, weights, biases):
 
 def prepare_training_params(own_data):
     """ prepare training params """
-    num_steps = 10000
-    if not own_data:
+    num_steps = 20000
+    if own_data:
         # Training Params
-        batch_size = 8
-        pic_size = 128
+        batch_size = 10
+        pic_size = 256
         # Network Params
-        image_dim = 16384
+        image_dim = 65500
         gen_hidden_dim = 256
         disc_hidden_dim = 256
         noise_dim = 100  # Noise data points
@@ -217,7 +252,9 @@ def train_model(pic_path=""):
 
     if pic_path:
         tmp_pics = resize_pic_from_data(pics_path=pic_path, pic_size=(1, image_dim))
+        print("Preparing data set")
         tf_pics = prepare_training_data_set(tmp_pics, tf_size=image_dim)
+        print("Preparing data set done")
 
     init = tf.global_variables_initializer()
     # 'Saver' op to save and restore all the variables
@@ -236,7 +273,7 @@ def train_model(pic_path=""):
             # specify fetches, and only care about the last two, gen_loss and disc_loss
             _, _, gl, dl = sess.run([train_gen, train_disc, gen_loss, disc_loss],
                                     feed_dict={disc_input: batch_x, gen_input: z})
-            if i % 100 == 0 or i == 1:
+            if i % 200 == 0 or i == 1:
                 print('Step %i: Generator Loss: %f, Discriminator Loss: %f' % (i, gl, dl))
 
         saver.save(sess, model_path)
@@ -299,11 +336,14 @@ def test_trained_model(pic_path=""):
 
 def main():
     pic_path = "/home/exuaqiu/xuanbin/ML/tensorflow_proj/pic_data/dog_icons"
-    #covert_pic_to_jpeg(pic_data_path=pic_path)
-    #train_model(pic_path)
-    test_trained_model(pic_path)
-    #standarlized_pics = resize_pic_from_data(pics_path=pic_path,  pic_size=(64, 64))
-    #iew_pics(standarlized_pics)
+    tmp_pic_store_path = os.path.join(pic_path, "tmp")
+    #urls = read_pic_url(os.path.join(pic_path, "dog_url_imagenet"))
+    #download_url(urls, tmp_pic_store_path)
+    #covert_pic_to_jpeg(pic_data_path=tmp_pic_store_path)
+    train_model(tmp_pic_store_path)
+    #test_trained_model(pic_path)
+    #standarlized_pics = resize_pic_from_data(pics_path=pic_path,  pic_size=(128, 128))
+    #view_pics(standarlized_pics)
 
 
 if __name__ == '__main__':
